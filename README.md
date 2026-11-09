@@ -1,4 +1,4 @@
-# Portfolio — Nikola Moon
+# Portfolio — N'Dri Moahe O.
 
 Portfolio fullstack réalisé avec React, TypeScript et Vite. Il présente une sélection de projets et un catalogue consultable de **120 dossiers** trouvés dans `all project`.
 

@@ -25,7 +25,7 @@ function App() {
   return <>
     <a className="skip-link" href="#main">Aller au contenu</a>
     <header className="site-header">
-      <a className="brand" href="#top" aria-label="Nikola Moon, accueil"><span className="brand-mark">N<span>✳</span></span><span className="brand-name">NIKOLA<span>MOON</span></span></a>
+      <a className="brand" href="#top" aria-label="N'Dri Moahe O., accueil"><span className="brand-mark">N<span>✳</span></span><span className="brand-name">N'Dri <span>Moahe O.</span></span></a>
       <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen} aria-controls="site-nav" aria-label="Ouvrir le menu">{menuOpen ? 'Fermer ✕' : 'Menu ☰'}</button>
       <nav id="site-nav" className={menuOpen ? 'nav open' : 'nav'} aria-label="Navigation principale">
         <a href="#projets" onClick={() => setMenuOpen(false)}>Projets</a>
@@ -75,7 +75,7 @@ function App() {
 
       <section className="contact section-pad" id="contact"><div className="section-kicker">/ 04 — CONTACT</div><div className="contact-inner"><h2>Une idée à<br/><em>construire ensemble ?</em></h2><p>Une collaboration, un projet ou simplement une conversation autour du code ? Retrouvons-nous sur GitHub.</p><a className="button button-light" href="https://github.com/nikola-moon" target="_blank" rel="noopener noreferrer">Découvrir mon GitHub <Arrow diagonal /></a></div><span className="contact-decoration" aria-hidden="true">✳</span></section>
     </main>
-    <footer><a className="footer-brand" href="#top">NIKOLA<span>MOON</span> ✳</a><span>PORTFOLIO FULLSTACK — 2026</span><a href="#top">Retour en haut ↑</a></footer>
+    <footer><a className="footer-brand" href="#top">N'Dri <span>Moahe O.</span> ✳</a><span>PORTFOLIO FULLSTACK — 2026</span><a href="#top">Retour en haut ↑</a></footer>
   </>;
 }
 
